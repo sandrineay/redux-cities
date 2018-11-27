@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from "react-redux";
 
-
 const ActiveCity = (props) => {
   return (
     <div className="active-city">
