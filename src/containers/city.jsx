@@ -10,7 +10,7 @@ class City extends Component {
 
   render() {
     return (
-      <div className="list-group-item" onClick={this.handleClick}>
+      <div className={`list-group-item ${this.props.selectedCity === this.props.city ? 'active' : ''}`} onClick={this.handleClick}>
         {this.props.city.name}
       </div>
     );
